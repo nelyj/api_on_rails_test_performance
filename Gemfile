@@ -16,7 +16,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Gem for Endpoint test
 
 gem 'ffaker'
-
+gem 'puma'
 
 
 # Use ActiveModel has_secure_password
