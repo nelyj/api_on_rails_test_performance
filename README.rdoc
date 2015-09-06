@@ -1,0 +1,13 @@
+My friend [Felipe Cabargas](https://twitter.com/juanpintoduran)  and [I](https://twitter.com/_patojimenez) are building a SAAS (Software as a services) with RoR. We have a MVP with an important client but our first problems is appearing in the platform. 
+
+> The platform is unstable because our endpoints isn't optimizing
+
+For this reason, I'm going to test many techniques for improve this situation.
+
+###### Test Environment
+
+For realize this test I'll to use this:
+
+* Macbook Pro 2.4 GHz Intel Core 2 Duo + 6GB RAM
+* Ruby 2.2.3
+* Rails 4.2.4
