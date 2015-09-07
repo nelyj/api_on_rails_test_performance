@@ -1,10 +1,13 @@
 class Api::PostsController < ApplicationController
+  respond_to :json
+
   before_action :set_post, only: [:show, :edit, :update, :destroy]
 
   # GET /posts
   # GET /posts.json
   def index
     @posts = Post.all
+    respond_with @posts, status: 200
   end
 
   # GET /posts/1
